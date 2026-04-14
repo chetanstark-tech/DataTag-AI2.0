@@ -1,9 +1,18 @@
-
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center">
-      <h1 className="text-6xl font-bold text-purple-400">DataTag AI</h1>
-      <p className="mt-4 text-gray-300">Production-grade AI Data SaaS</p>
+    <main style={{
+      minHeight: "100vh",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      background: "black",
+      color: "white",
+      flexDirection: "column"
+    }}>
+      <h1 style={{ fontSize: "48px", color: "#a855f7" }}>
+        DataTag AI
+      </h1>
+      <p>SaaS is running 🚀</p>
     </main>
   );
 }
